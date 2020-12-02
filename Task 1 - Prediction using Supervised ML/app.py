@@ -15,7 +15,8 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
+from PIL import Image
+		
 
 #### Functions
 
@@ -194,15 +195,39 @@ def main():
 			##### Built with Streamlit
 			#### 
 			
-			#### Company
-			+ GRIP - The Spark Foundation 
-
-			#### By
-			+ Hrishikesh Sharad Malkar
 			
-
 			""")
 
+		html_page = """
+		<div padding = 50px">
+		<p style="font-size:15px"><b>Problem Statement:</b> Predict the percentage of marks of a student 
+		can score based on the number of hours he dedicates on his studies.</p>
+		</div>
+
+		"""
+
+		st.markdown(html_page, unsafe_allow_html=True)
+		st.markdown("### Company")
+		st.success("GRIP - The Spark Foundation")
+		
+		img =Image.open('notebook/TSF.png')
+		st.image(img, width=350)
+		st.markdown("""
+			#### By
+			+ Hrishikesh Sharad Malkar
+			""")
+
+		st.markdown("""
+			+ Code: [Github](https://github.com/hrishikeshmalkar/GRIP_The-Spark-Foundation.git)""")
+
+		st.markdown("""
+			### Connect with me
+			+ [LinkedIn](https://www.linkedin.com/in/hrishikesh-malkar-81a37115b/)
+			+ [Twitter](https://twitter.com/Hrishi7997)
+			+ [Github](https://github.com/hrishikeshmalkar)
+
+
+			""")
 
 if __name__ == '__main__':
 	main()
