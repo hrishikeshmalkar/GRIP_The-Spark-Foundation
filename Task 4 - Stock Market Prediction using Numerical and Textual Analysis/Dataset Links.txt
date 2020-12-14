@@ -1,2 +1,0 @@
-Stocks Data: https://finance.yahoo.com/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAFjbUjMlpwWCChzgDhGmOxDnc9pgirHVWrYgesQKbFwoiM3baB7iBTPhDeFA1JlCYScAdhpEOxZBr7LpBRFCn6x1-1ORh-QKfecMc7uwMB6Apc5GUaA0VN16ubXMWwhyZ0f35gURpHJULJY4kLQUHx5UsdgrCD3Ju8_X1qTDAxAQ
-Textual Data: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DPQMQH
